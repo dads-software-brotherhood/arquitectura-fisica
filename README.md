@@ -3,12 +3,13 @@
 ## Generación del Aplicativo
 
 1. Ingresar a la siguiente url [Kukulkan App Generator](http://200.38.177.199:8080/)
-2. Ingrese en `Account -> Sign` In e ingrese las siguientes credenciales
+2. Ingrese en `Account -> Sign In` e ingrese las siguientes credenciales:
+
 ```sh
   user: admin
   password: admin
 ```
-3. A continuación dirijase a `Tools -> Domain Modeler` y comience a modelar su aplicación.
+3. A continuación diríjase a `Tools -> Domain Modeler` y comience a modelar su aplicación.
 4. Al terminar de modelar con `DSL-kukulkan` copiar el modelo (texto) en un lugar que le permita volver a recuperarlo: por ejemplo, block de notas.
 5. A continuación dirijase a `Tools -> Grammar Generator` .
 6. A continuación copie y pegue su modelo (texto) en el editor blanco, después de clic en el botón `GENERATE APP` revise la consola de salida por si encuentra errores. Esta acción puede tardar un tiempo, debido a que se genera la aplicación completa y pesa más de 125 MB. 
@@ -25,7 +26,7 @@ El aplicativo está compuesto de la siguiente tecnología:
 5. Angular 1.5.8
 6. Maven 
 
-Con la finalidad de ejecutar el aplicativo, al menos es necesario contar con la version mas reciente de **Java JDK 8* y **MongoDB**. A continuación se dejan los links en los que encontrará cómo instalar dichos paquetes de acuerdo con el sistema opertivo que esté utilizando:
+Con la finalidad de ejecutar el aplicativo, al menos es necesario contar con la versión más reciente de **Java JDK 8* y **MongoDB**. A continuación se dejan los links en los que encontrará cómo instalar dichos paquetes de acuerdo con el sistema operativo que esté utilizando:
 
 1. [Java JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. [MongoDB](https://docs.mongodb.com/manual/installation/)
@@ -38,7 +39,7 @@ Al terminar de instalar los paquetes necesarios, se deberá de agregar la variab
 
 ## Ejecución del Proyecto
 
-Una ves instalado el ambiente de desarrollo, se deberá de dirigir a la carpeta en donde descargó la aplicación generada. Lo anterior deberá de ser desde una línea de consola:
+Una vez instalado el ambiente de desarrollo, se deberá de dirigir a la carpeta en donde descargó la aplicación generada. Lo anterior deberá de ser desde una línea de consola:
 
 ```sh
 cd [SU_HOME]/[DOWNLOADED_APP]
@@ -55,4 +56,4 @@ Al terminar de inicializar el aplicativo podrá ver el aplicativo generado en un
 http://localhost:8080
 ```
 
-¡Kukulkan Generator!
+**¡Kukulkan Generator!**
