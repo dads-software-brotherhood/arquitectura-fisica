@@ -19,8 +19,8 @@
 
 El aplicativo está compuesto de la siguiente tecnología:
 
-1. MongoDB -> Requiere Instalación Local
-2. Java 8  -> Requiere Instalación
+1. MongoDB -> **(Requiere Instalación Local)**
+2. Java 8  -> **(Requiere Instalación Local)**
 3. Docker  -> (Opcional)
 4. Spring Boot
 5. Angular 1.5.8
