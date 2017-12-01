@@ -47,9 +47,12 @@ cd kukulkanmongo
 ./mvnw spring-boot:run
 ```
 
-Al terminar de inicializar el aplicativo podrá ver el aplicativo generado en un navegador web, apuntando a la siguiente URL:
+en dónde `[SU_HOME]/DOWNLOADED_APP]` es la ubicación del aplicativo generado y `[FILE_NAME].zip` es el nombre del aplicativo descargado; este nombre es generado por el servidor.
 
-```sh
+Al terminar de inicializar el aplicativo podrá ver el aplicativo generado en un navegador web, apuntando a la siguiente **URL**:
+
+```html
 http://localhost:8080
 ```
 
+¡Kukulkan Generator!
